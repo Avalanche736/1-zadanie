@@ -20,5 +20,5 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    fib(n);
+    printf("%d", fib(n));
 }
