@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <limits.h>
 int main()
 {
    int n,b,max,i;
-   max=–2147483648;
+   max=INT_MIN;
    scanf("%d",&n);
    for (i=1;i<=n;i++)
     { if (i==1) { scanf("%d",&b);}
